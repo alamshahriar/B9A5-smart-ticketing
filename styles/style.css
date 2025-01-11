@@ -9,3 +9,8 @@
 .font-inter{
     font-family: "Inter", serif;
 }
+
+.container{
+    max-width: 1173px;
+    margin: auto;
+}
