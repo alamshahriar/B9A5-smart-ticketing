@@ -170,7 +170,7 @@
             </div>
         </section>
         <section
-            class="mt-[60px] lg:mt-[120px] border-2 rounded-t-[30px] lg:rounded-t-[60px] border-t-[#1DD100] bg-[#F7F8F8]">
+            class="mt-[60px] lg:mt-[120px] border-2 rounded-t-[30px] lg:rounded-t-[60px] border-t-[#1DD100] bg-[#F7F8F8] ">
             <div class="text-center pt-[60px] lg:pt-[120px]">
                 <h2 class="font-raleway font-bold text-[#030712] text-4xl pb-3 lg:pb-6">P.H Paribahan</h2>
                 <p class="font-normal text-lg text-[#03071299] max-w-3xl m-auto">Yes, you can run unit tests and view
@@ -181,13 +181,15 @@
                     features allow for a streamlined .</p>
             </div>
             <div class="container-one">
-                <div class="bg-[#FFFFFF]  flex items-center rounded-3xl relative z-0 w-full mt-[47px] mb-7">
+                <div
+                    class="bg-[#FFFFFF]  flex flex-col lg:flex-row items-center rounded-3xl relative z-0 w-full mt-[47px] mb-7 ">
                     <div class="flex-1 py-12 min-w-[70%]">
                         <div class="flex items-center justify-between px-8">
                             <div class="flex items-center gap-3">
                                 <img src="images/bus-logo.png" alt="">
                                 <div>
-                                    <h1 class="text-[40px] font-bold text-[#030712]">Greenline Paribahan</h1>
+                                    <h1 class="text-[26px] lg:text-[40px] font-bold text-[#030712]">Greenline Paribahan
+                                    </h1>
                                     <p class="text-[#030712CC] text-xl mt-2">
                                         Coach-009-WEB ! AC_Business
                                     </p>
@@ -199,7 +201,7 @@
                         </div>
                         <div class="px-8 py-6">
                             <div class="bg-[#F7F8F8] max-w-3xl rounded-3xl">
-                                <div class="px-8 py-8">
+                                <div class="px-4 lg:px-8 py-4 lg:py-8">
                                     <h3 class="flex justify-between items-center text-[#03071299]
                                     text-lg font-semibold font-raleway border-dashed border-b-2 pb-6">Route
                                         <span class="text-[#030712]">Dhaka- Sylhet</span>
@@ -209,19 +211,19 @@
                                         Time
                                         <span class="text-[#030712]">9:00PM</span>
                                     </h4>
-                                    <div class="py-6 flex justify-between items-center">
+                                    <div class="py-6 flex justify-between items-center gap-3 lg:gap-5">
                                         <button
-                                            class="text-[#030712CC] text-base font-medium font-inter py-4 px-[18px] bg-[#0307120D] rounded-xl">Boarding
+                                            class="text-[#030712CC] text-base font-medium font-inter py-2 lg:py-4 px-2 lg:px-[18px] bg-[#0307120D] rounded-xl">Boarding
                                             Point
                                             -
                                             Laxmipur
                                         </button>
                                         <button
-                                            class="text-[#030712CC] text-base font-medium font-inter py-4 px-[18px] bg-[#0307120D] rounded-xl">Dropping
+                                            class="text-[#030712CC] text-base font-medium font-inter py-2 lg:py-4 px-2 lg:px-[18px] bg-[#0307120D] rounded-xl">Dropping
                                             Point - Bogura
                                         </button>
                                         <button
-                                            class="text-[#030712CC] text-base font-medium font-inter py-[19px] px-[44px] bg-[#0307120D] rounded-xl">Est.
+                                            class="text-[#030712CC] text-base font-medium font-inter py-2 lg:py-[19px] px-[22px] lg:px-[44px] bg-[#0307120D] rounded-xl">Est.
                                             Time - 11 Hour
                                         </button>
                                     </div>
@@ -229,7 +231,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="relative z-20  h-[550px] border border-dashed border-[#1DD100] rounded-tr-3xl">
+                    <div
+                        class="relative z-20  h-[550px] border border-dashed border-[#1DD100] rounded-tr-3xl hidden lg:block">
                         <div
                             class="absolute top-0 w-[48px] h-[48px] bg-[#F7F8F8] rounded-full transform -translate-x-1/2 -translate-y-1/2">
                         </div>
@@ -237,7 +240,7 @@
                             class="absolute bottom-0 w-[48px] h-[48px] bg-[#F7F8F8] rounded-full transform -translate-x-1/2 translate-y-1/2">
                         </div>
                     </div>
-                    <div class="flex justify-center items-center flex-col text-center pl-[24px] pr-[64px]">
+                    <div class="flex justify-between  flex-col text-center lg:pl-[24px] lg:pr-[64px] pb-6 lg:pb-0">
                         <img src="images/fare.png" alt="">
                         <div>
                             <span class="block font-raleway text-[32px] font-bold text-[#030712]">550 Taka</span>
@@ -246,9 +249,9 @@
                     </div>
 
                 </div>
-                <div class="bg-[#FFFFFF] rounded-3xl px-8 py-8">
-                    <div>
-                        <div class="min-w-[60%]">
+                <div class="bg-[#FFFFFF] rounded-3xl px-4 lg:px-8 py-4 lg:py-8 mb-[60px] lg:mb-[120px]">
+                    <div class="flex flex-col lg:flex-row gap-8">
+                        <div class="lg:min-w-[55%]">
                             <h3 class="font-raleway font-semibold text-2xl text-[#030712] pb-6">Select Your Seat</h3>
                             <div class="flex justify-between items-center border-dashed border-t-2  border-b-2 py-4">
                                 <p class="flex gap-2 items-center just">
@@ -261,150 +264,191 @@
                                 </p>
 
                             </div>
+                            <div class="grid grid-cols-1 gap-3 lg:gap-8 pt-3 lg:pt-6 ">
+                                <div class="flex justify-end items-center">
+                                    <button
+                                        class="bg-[#0307121A] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium">
+                                        <img src="images/Vector.png" alt=""></button>
+                                </div>
+                                <div class="contents lg:flex lg:justify-between lg:items-center">
+                                    <h4 class="font-inter text-[#03071280] text-lg">A</h4>
+                                    <button
+                                        class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium">A1</button>
+                                    <button
+                                        class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium">A2</button>
+                                    <button
+                                        class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium">A3</button>
+                                    <button
+                                        class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium">A4</button>
+                                </div>
+                                <div class="contents lg:flex lg:justify-between lg:items-center">
+                                    <h4 class="font-inter text-[#03071280] text-lg">B</h4>
+                                    <button
+                                        class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium">B1</button>
+                                    <button
+                                        class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium">B2</button>
+                                    <button
+                                        class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium">B3</button>
+                                    <button
+                                        class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium">B4</button>
+                                </div>
+                                <div class="contents lg:flex lg:justify-between lg:items-center">
+                                    <h4 class="font-inter text-[#03071280] text-lg">C</h4>
+                                    <button
+                                        class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium">C1</button>
+                                    <button
+                                        class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium">C2</button>
+                                    <button
+                                        class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium">C3</button>
+                                    <button
+                                        class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium">C4</button>
+                                </div>
+                                <div class="contents lg:flex lg:justify-between lg:items-center">
+                                    <h4 class="font-inter text-[#03071280] text-lg">D</h4>
+                                    <button
+                                        class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium">D1</button>
+                                    <button
+                                        class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium">D2</button>
+                                    <button
+                                        class="bg-[#1DD100] text-[#FFFFFF] py-4 px-11 rounded-xl font-inter font-medium">D3</button>
+                                    <button
+                                        class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium">D4</button>
+                                </div>
+                                <div class="contents lg:flex lg:justify-between lg:items-center">
+                                    <h4 class="font-inter text-[#03071280] text-lg">E</h4>
+                                    <button
+                                        class="bg-[#1DD100] text-[#FFFFFF] py-4 px-11 rounded-xl font-inter font-medium">E1</button>
+                                    <button
+                                        class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium">E2</button>
+                                    <button
+                                        class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium">E3</button>
+                                    <button
+                                        class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium">E4</button>
+                                </div>
+                                <div class="contents lg:flex lg:justify-between lg:items-center">
+                                    <h4 class="font-inter text-[#03071280] text-lg">F</h4>
+                                    <button
+                                        class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium">F1</button>
+                                    <button
+                                        class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium">F2</button>
+                                    <button
+                                        class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium">F3</button>
+                                    <button
+                                        class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium">F4</button>
+                                </div>
+                                <div class="contents lg:flex lg:justify-between lg:items-center">
+                                    <h4 class="font-inter text-[#03071280] text-lg">G</h4>
+                                    <button
+                                        class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium">G1</button>
+                                    <button
+                                        class="bg-[#1DD100] text-[#FFFFFF] py-4 px-11 rounded-xl font-inter font-medium">G2</button>
+                                    <button
+                                        class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium">G3</button>
+                                    <button
+                                        class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium">G4</button>
+                                </div>
+                                <div class="contents lg:flex lg:justify-between lg:items-center">
+                                    <h4 class="font-inter text-[#03071280] text-lg">H</h4>
+                                    <button
+                                        class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium">H1</button>
+                                    <button
+                                        class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium">H2</button>
+                                    <button
+                                        class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium">H3</button>
+                                    <button
+                                        class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium">H4</button>
+                                </div>
+                                <div class="contents lg:flex lg:justify-between lg:items-center">
+                                    <h4 class="font-inter text-[#03071280] text-lg">I</h4>
+                                    <button
+                                        class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium">I1</button>
+                                    <button
+                                        class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium">I2</button>
+                                    <button
+                                        class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium">I3</button>
+                                    <button
+                                        class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium">I4</button>
+                                </div>
+                                <div class="contents lg:flex lg:justify-between lg:items-center">
+                                    <h4 class="font-inter text-[#03071280] text-lg">J</h4>
+                                    <button
+                                        class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium">J1</button>
+                                    <button
+                                        class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium">J2</button>
+                                    <button
+                                        class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium">J3</button>
+                                    <button
+                                        class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium">J4</button>
+                                </div>
+                            </div>
                         </div>
-                        <div class="grid grid-cols-1 gap-8 pt-6">
-                            <div class="flex justify-end items-center">
-                                <button
-                                    class="bg-[#0307121A] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium">
-                                    <img src="images/Vector.png" alt=""></button>
-                            </div>
-                            <div class="flex justify-between items-center">
-                                <h4 class="font-inter text-[#03071280] text-lg">A</h4>
-                                <button
-                                    class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium">A1</button>
-                                <button
-                                    class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium">A2</button>
-                                <button
-                                    class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium">A3</button>
-                                <button
-                                    class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium">A4</button>
-                            </div>
-                            <div class="flex justify-between items-center">
-                                <h4 class="font-inter text-[#03071280] text-lg">B</h4>
-                                <button
-                                    class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium">B1</button>
-                                <button
-                                    class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium">B2</button>
-                                <button
-                                    class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium">B3</button>
-                                <button
-                                    class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium">B4</button>
-                            </div>
-                            <div class="flex justify-between items-center">
-                                <h4 class="font-inter text-[#03071280] text-lg">C</h4>
-                                <button
-                                    class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium">C1</button>
-                                <button
-                                    class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium">C2</button>
-                                <button
-                                    class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium">C3</button>
-                                <button
-                                    class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium">C4</button>
-                            </div>
-                            <div class="flex justify-between items-center">
-                                <h4 class="font-inter text-[#03071280] text-lg">D</h4>
-                                <button
-                                    class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium">D1</button>
-                                <button
-                                    class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium">D2</button>
-                                <button
-                                    class="bg-[#1DD100] text-[#FFFFFF] py-4 px-11 rounded-xl font-inter font-medium">D3</button>
-                                <button
-                                    class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium">D4</button>
-                            </div>
-                            <div class="flex justify-between items-center">
-                                <h4 class="font-inter text-[#03071280] text-lg">E</h4>
-                                <button
-                                    class="bg-[#1DD100] text-[#FFFFFF] py-4 px-11 rounded-xl font-inter font-medium">E1</button>
-                                <button
-                                    class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium">E2</button>
-                                <button
-                                    class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium">E3</button>
-                                <button
-                                    class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium">E4</button>
-                            </div>
-                            <div class="flex justify-between items-center">
-                                <h4 class="font-inter text-[#03071280] text-lg">F</h4>
-                                <button
-                                    class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium">F1</button>
-                                <button
-                                    class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium">F2</button>
-                                <button
-                                    class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium">F3</button>
-                                <button
-                                    class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium">F4</button>
-                            </div>
-                            <div class="flex justify-between items-center">
-                                <h4 class="font-inter text-[#03071280] text-lg">G</h4>
-                                <button
-                                    class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium">G1</button>
-                                <button
-                                    class="bg-[#1DD100] text-[#FFFFFF] py-4 px-11 rounded-xl font-inter font-medium">G2</button>
-                                <button
-                                    class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium">G3</button>
-                                <button
-                                    class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium">G4</button>
-                            </div>
-                            <div class="flex justify-between items-center">
-                                <h4 class="font-inter text-[#03071280] text-lg">H</h4>
-                                <button
-                                    class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium">H1</button>
-                                <button
-                                    class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium">H2</button>
-                                <button
-                                    class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium">H3</button>
-                                <button
-                                    class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium">H4</button>
-                            </div>
-                            <div class="flex justify-between items-center">
-                                <h4 class="font-inter text-[#03071280] text-lg">I</h4>
-                                <button
-                                    class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium">I1</button>
-                                <button
-                                    class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium">I2</button>
-                                <button
-                                    class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium">I3</button>
-                                <button
-                                    class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium">I4</button>
-                            </div>
-                            <div class="flex justify-between items-center">
-                                <h4 class="font-inter text-[#03071280] text-lg">J</h4>
-                                <button
-                                    class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium">J1</button>
-                                <button
-                                    class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium">J2</button>
-                                <button
-                                    class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium">J3</button>
-                                <button
-                                    class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium">J4</button>
-                            </div>
+                        <!-- Border -->
+                        <div class="h-[1078px] border border-dashed border-[#0307124D] hidden lg:block">
+
                         </div>
                         <div>
                             <h3
                                 class="font-raleway font-semibold text-2xl text-[#030712] pb-6 border-dashed border-b-2">
                                 Select Your Seat</h3>
-                            <div class="max-w-md h-[335px] bg-[#F7F8F8] rounded-xl">
+                            <div class="max-w-md h-[335px] bg-[#F7F8F8] rounded-xl px-8 py-8 mt-6">
                                 <div>
                                     <div class="flex justify-between items-center pb-4">
-                                        <p>Seat <span>2</span></p>
-                                        <p>Class</p>
-                                        <p>Price</p>
+                                        <p class="font-inter text-base text-[#030712]">Seat <span
+                                                class="bg-[#1DD100] rounded px-4 text-white h-[13px] w-[23px]">2</span>
+                                        </p>
+                                        <p class="font-inter text-base text-[#030712]">Class</p>
+                                        <p class="font-inter text-base text-[#030712]">Price</p>
                                     </div>
                                     <div class="flex justify-between items-center border-dashed border-t-2 pt-4">
-                                        <p>C2</p>
-                                        <p>Economoy</p>
-                                        <p>550</p>
+                                        <p class="font-inter text-base text-[#03071299]">C2</p>
+                                        <p class="font-inter text-base text-[#03071299]">Economoy</p>
+                                        <p class="font-inter text-base text-[#03071299]">550</p>
                                     </div>
-                                    <div class="flex justify-between items-center pt-4">
-                                        <p>C2</p>
-                                        <p>Economoy</p>
-                                        <p>550</p>
+                                    <div class="flex justify-between items-center pt-4 pb-4">
+                                        <p class="font-inter text-base text-[#03071299]">C2</p>
+                                        <p class="font-inter text-base text-[#03071299]">Economoy</p>
+                                        <p class="font-inter text-base text-[#03071299]">550</p>
                                     </div>
                                 </div>
-                                <div class="flex justify-between items-center pt-4 ">
-                                    <p>Total Price</p>
-                                    <p>550</p>
+                                <div class="flex justify-between items-center pt-4 border-t border-[#03071233]">
+                                    <p class="font-inter text-base font-medium text-[#030712]">Total Price</p>
+                                    <p class="font-inter text-base font-medium text-[#030712]">BDT 1100</p>
                                 </div>
+                                <div class="flex items-center gap-4 mt-5">
+                                    <input type="text" placeholder="Have any coupon?"
+                                        class="max-w-96 h-[56px] border border-white rounded-xl px-5 pl-5 text-sm focus:outline-none focus:ring-white focus:border-white relative w-full" />
+                                    <button
+                                        class="bg-[#1DD100] text-white rounded-lg px-5 py-3 text-base font-semibold font-inter absolute ml-[220px] lg:ml-[281px]">
+                                        Apply
+                                    </button>
+                                </div>
+                                <div class="flex justify-between items-center pt-4">
+                                    <p class="font-inter text-base font-medium text-[#030712]">Grand Total</p>
+                                    <p class="font-inter text-base font-medium text-[#030712]">BDT 1100</p>
+                                </div>
+                            </div>
+                            <div class="pt-[40px] pb-[40px]">
+                                <h3 class="font-inter font-semibold text-base text-[#030712] pb-4">Passenger Name*</h3>
+                                <input type="text" name="" id="" placeholder="Enter your name "
+                                    class="max-w-md h-[56px] border border-[#0307121A] rounded-xl px-5 pl-5 text-sm  w-full focus:outline-none focus:ring-[#0307121A] focus:border-[#0307121A]">
+                            </div>
+                            <div class="pb-[40px]">
+                                <h3 class="font-inter font-semibold text-base text-[#030712] pb-4">Phone Number*</h3>
+                                <input type="text" name="" id="" placeholder="Enter your phone number"
+                                    class="max-w-md h-[56px] border border-[#0307121A] rounded-xl px-5 pl-5 text-sm  w-full focus:outline-none focus:ring-[#0307121A] focus:border-[#0307121A]">
+                            </div>
+                            <div class="pt-[10px]">
+                                <h3 class="font-inter font-semibold text-base text-[#030712] pb-4">Email ID</h3>
+                                <input type="text" name="" id="" placeholder="Enter your email id"
+                                    class="max-w-md h-[56px] border border-[#0307121A] rounded-xl px-5 pl-5 text-sm  w-full focus:outline-none focus:ring-[#0307121A] focus:border-[#0307121A]">
+                            </div>
+                            <button
+                                class="py-5 px-[191px] font-raleway font-extrabold text-xl bg-[#1DD100] text-white w-full rounded-2xl mt-6 mb-6">Next</button>
+                            <div class="flex justify-between items-center pt-4 max-w-md">
+                                <p class="font-inter text-base font-medium text-[#03071299] underline">Terms and
+                                    Conditions</p>
+                                <p class="font-inter text-base font-medium text-[#03071299] underline">Cancellation
+                                    Policy</p>
                             </div>
                         </div>
                     </div>
@@ -415,7 +459,44 @@
         </section>
 
     </main>
+
+    <footer class="bg-[#030712]">
+        <section class="py-[60px] lg:py-[120px]">
+            <div class="container-one">
+                <div class="flex justify-between items-center pb-6 lg:pb-12">
+                    <div>
+                        <h1 class="font-raleway font-extrabold text-4xl text-white pb-4">P-Ticket</h1>
+                        <p class="font-inter font-medium text-base text-white max-w-96">P-Ticket is a digital platform
+                            to make
+                            your daily commuting
+                            better.</p>
+                    </div>
+                    <div class="">
+                        <h5 class="font-raleway text-xl font-semibold text-white pb-4">Download our app</h5>
+                        <div class="border border-white rounded-lg flex gap-3 pr-3">
+                            <img src="images/playstore.png" alt="" class="py-2 pl-3">
+                            <div class="text-white font-raleway">
+                                <h6 class="uppercase text-base font-bold">Get it on</h6>
+                                <p class="text-2xl font-extrabold">Google Play</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex justify-between items-center border-dashed border-[#FFFFFF4D] border-t pt-8">
+                    <p class="font-inter font-normal text-base text-[#FFFFFFB3]">@all rights reserved, P-Ticket services
+                        limited.2024</p>
+                    <div class="flex justify-between items-center gap-8">
+                        <a href="#" class="font-inter font-medium text-base text-white">Terms & condition</a>
+                        <a href="#" class="font-inter font-medium text-base text-white">Return & refund policy</a>
+                        <a href="#" class="font-inter font-medium text-base text-white">Privacy policy</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+
     <script src="js/ticket.js"></script>
+
 </body>
 
 </html>
