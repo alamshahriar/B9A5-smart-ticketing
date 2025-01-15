@@ -15,7 +15,7 @@
 </head>
 
 <body>
-    <header>
+    <header class="mx-3 lg:mx-0">
         <nav>
             <div class="container-one">
                 <div class="flex justify-between lg:mt-14">
@@ -81,7 +81,8 @@
                             directly within the app. The integrated
                             testing features allow for a streamlined .</p>
                         <button
-                            class="font-bold text-xl font-raleway text-[#030712] py-5 px-7 bg-[#1DD100] rounded-xl mb-16">Buy
+                            class="font-bold text-xl font-raleway text-[#030712] py-5 px-7 bg-[#1DD100] rounded-xl mb-16"
+                            onclick="scrollToText()">Buy
                             Tickets</button>
                     </div>
                     <div
@@ -116,7 +117,7 @@
             </div>
         </section>
     </header>
-    <main>
+    <main class="mx-3 lg:mx-0">
         <section class="mt-[120px]">
             <div class="container-one">
                 <h1 class="font-raleway  font-bold text-[40px] text-[#030712] text-center pb-12">Best offers for you
@@ -179,7 +180,8 @@
         </section>
         <!-- Ph poribahon -->
         <section
-            class="mt-[60px] lg:mt-[120px] border-2 rounded-t-[30px] lg:rounded-t-[60px] border-t-[#1DD100] bg-[#F7F8F8] ">
+            class="mt-[60px] lg:mt-[120px] border-2 rounded-t-[30px] lg:rounded-t-[60px] border-t-[#1DD100] bg-[#F7F8F8]"
+            id="text">
 
             <!-- porihahon section content -->
 
@@ -463,7 +465,7 @@
                                     class="max-w-md h-[56px] border border-[#0307121A] rounded-xl px-5 pl-5 text-sm  w-full focus:outline-none focus:ring-[#0307121A] focus:border-[#0307121A]">
                             </div>
                             <button
-                                class="py-5 px-[191px] font-raleway font-extrabold text-xl bg-[#1DD100] text-white w-full rounded-2xl mt-6 mb-6">Next</button>
+                                class="py-5 lg:px-[191px] font-raleway font-extrabold text-xl bg-[#1DD100] text-white w-full rounded-2xl mt-6 mb-6">Next</button>
                             <div class="flex justify-between items-center pt-4 max-w-md">
                                 <p class="font-inter text-base font-medium text-[#03071299] underline">Terms and
                                     Conditions</p>
@@ -533,8 +535,15 @@
         </section>
     </footer>
 
-    <script src="js/scripts.js"></script>
 
+    <script>
+        let text = document.getElementById('text');
+
+        function scrollToText() {
+            text.scrollIntoView();
+            // window.scrollTo(0, 1350);
+        }
+    </script>
 </body>
 
 </html>
