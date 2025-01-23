@@ -26,6 +26,5 @@
 
 .seat.selected {
     background-color: #1DD100;
-    /* Green color for selected */
     color: white;
 }
