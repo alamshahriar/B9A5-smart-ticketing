@@ -181,7 +181,7 @@
         <!-- Ph poribahon -->
         <section
             class="mt-[60px] lg:mt-[120px] border-2 rounded-t-[30px] lg:rounded-t-[60px] border-t-[#1DD100] bg-[#F7F8F8]"
-            id="text">
+            id="buy">
 
             <!-- porihahon section content -->
 
@@ -212,9 +212,12 @@
                                     </p>
                                 </div>
                             </div>
-                            <button class="flex items-center gap-2 rounded-xl bg-[#1DD10026] py-3 px-4 text-[#1DD100]">
-                                <img src="images/seat-green.png" alt=""> 40 Seats
-                                left</button>
+                            <button
+                                class="flex items-center lg:gap-2 rounded-xl bg-[#1DD10026] py-3 px-4 text-[#1DD100]">
+                                <img src="images/seat-green.png" alt="">
+                                <p><span id="availableSeats">40</span></p>
+                                Seats left
+                            </button>
                         </div>
                         <div class="px-8 py-6">
                             <div class="bg-[#F7F8F8] max-w-3xl rounded-3xl">
@@ -271,7 +274,8 @@
                         <div class="lg:min-w-[55%]">
                             <h3 class="font-raleway font-semibold text-2xl text-[#030712] pb-6">Select Your Seat
                             </h3>
-                            <div class="flex justify-between items-center border-dashed border-t-2  border-b-2 py-4">
+                            <div
+                                class="flex justify-between items-center border-[#03071233] border-dashed border-t-2  border-b-2 py-4">
                                 <p class="flex gap-2 items-center just">
                                     <img src="images/seat-gray.png" alt="">
                                     <span class="text-lg font-medium text-[#03071280] font-inter">Available</span>
@@ -292,120 +296,158 @@
                                 <div class="contents lg:flex lg:justify-between lg:items-center">
                                     <h4 class="font-inter text-[#03071280] text-lg">A</h4>
                                     <button
-                                        class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium">A1</button>
+                                        class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium seat"
+                                        id="A1" onclick="toggleSeat(this)">A1</button>
                                     <button
-                                        class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium">A2</button>
+                                        class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium seat"
+                                        id="A2" onclick="toggleSeat(this)">A2</button>
                                     <button
-                                        class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium">A3</button>
+                                        class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium seat"
+                                        id="A3" onclick="toggleSeat(this)">A3</button>
                                     <button
-                                        class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium">A4</button>
+                                        class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium seat"
+                                        id="A4" onclick="toggleSeat(this)">A4</button>
                                 </div>
                                 <div class="contents lg:flex lg:justify-between lg:items-center">
                                     <h4 class="font-inter text-[#03071280] text-lg">B</h4>
                                     <button
-                                        class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium">B1</button>
+                                        class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium seat"
+                                        id="B1" onclick="toggleSeat(this)">B1</button>
                                     <button
-                                        class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium">B2</button>
+                                        class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium seat"
+                                        id="B2" onclick="toggleSeat(this)">B2</button>
                                     <button
-                                        class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium">B3</button>
+                                        class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium seat"
+                                        id="B3" onclick="toggleSeat(this)">B3</button>
                                     <button
-                                        class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium">B4</button>
+                                        class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium seat"
+                                        id="B4" onclick="toggleSeat(this)">B4</button>
                                 </div>
                                 <div class="contents lg:flex lg:justify-between lg:items-center">
                                     <h4 class="font-inter text-[#03071280] text-lg">C</h4>
                                     <button
-                                        class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium">C1</button>
+                                        class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium seat"
+                                        id="C1" onclick="toggleSeat(this)">C1</button>
                                     <button
-                                        class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium">C2</button>
+                                        class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium seat"
+                                        id="C2" onclick="toggleSeat(this)">C2</button>
                                     <button
-                                        class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium">C3</button>
+                                        class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium seat"
+                                        id="C3" onclick="toggleSeat(this)">C3</button>
                                     <button
-                                        class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium">C4</button>
+                                        class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium seat"
+                                        id="C4" onclick="toggleSeat(this)">C4</button>
                                 </div>
                                 <div class="contents lg:flex lg:justify-between lg:items-center">
                                     <h4 class="font-inter text-[#03071280] text-lg">D</h4>
                                     <button
-                                        class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium">D1</button>
+                                        class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium seat"
+                                        id="D1" onclick="toggleSeat(this)">D1</button>
                                     <button
-                                        class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium">D2</button>
+                                        class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium seat"
+                                        id="D2" onclick="toggleSeat(this)">D2</button>
                                     <button
-                                        class="bg-[#1DD100] text-[#FFFFFF] py-4 px-11 rounded-xl font-inter font-medium">D3</button>
+                                        class="bg-[#1DD100] text-[#FFFFFF] py-4 px-11 rounded-xl font-inter font-medium seat"
+                                        id="D3" onclick="toggleSeat(this)">D3</button>
                                     <button
-                                        class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium">D4</button>
+                                        class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium seat"
+                                        id="D4" onclick="toggleSeat(this)">D4</button>
                                 </div>
                                 <div class="contents lg:flex lg:justify-between lg:items-center">
                                     <h4 class="font-inter text-[#03071280] text-lg">E</h4>
                                     <button
-                                        class="bg-[#1DD100] text-[#FFFFFF] py-4 px-11 rounded-xl font-inter font-medium">E1</button>
+                                        class="bg-[#1DD100] text-[#FFFFFF] py-4 px-11 rounded-xl font-inter font-medium seat"
+                                        id="E1" onclick="toggleSeat(this)">E1</button>
                                     <button
-                                        class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium">E2</button>
+                                        class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium seat"
+                                        id="E2" onclick="toggleSeat(this)">E2</button>
                                     <button
-                                        class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium">E3</button>
+                                        class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium seat"
+                                        id="E3" onclick="toggleSeat(this)">E3</button>
                                     <button
-                                        class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium">E4</button>
+                                        class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium seat"
+                                        id="E4" onclick="toggleSeat(this)">E4</button>
                                 </div>
                                 <div class="contents lg:flex lg:justify-between lg:items-center">
                                     <h4 class="font-inter text-[#03071280] text-lg">F</h4>
                                     <button
-                                        class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium">F1</button>
+                                        class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium seat"
+                                        id="F1" onclick="toggleSeat(this)">F1</button>
                                     <button
-                                        class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium">F2</button>
+                                        class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium seat"
+                                        id="F2" onclick="toggleSeat(this)">F2</button>
                                     <button
-                                        class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium">F3</button>
+                                        class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium seat"
+                                        id="F3" onclick="toggleSeat(this)">F3</button>
                                     <button
-                                        class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium">F4</button>
+                                        class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium seat"
+                                        id="F4" onclick="toggleSeat(this)">F4</button>
                                 </div>
                                 <div class="contents lg:flex lg:justify-between lg:items-center">
                                     <h4 class="font-inter text-[#03071280] text-lg">G</h4>
                                     <button
-                                        class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium">G1</button>
+                                        class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium seat"
+                                        id="G1" onclick="toggleSeat(this)">G1</button>
                                     <button
-                                        class="bg-[#1DD100] text-[#FFFFFF] py-4 px-11 rounded-xl font-inter font-medium">G2</button>
+                                        class="bg-[#1DD100] text-[#FFFFFF] py-4 px-11 rounded-xl font-inter font-medium seat"
+                                        id="G2" onclick="toggleSeat(this)">G2</button>
                                     <button
-                                        class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium">G3</button>
+                                        class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium seat"
+                                        id="G3" onclick="toggleSeat(this)">G3</button>
                                     <button
-                                        class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium">G4</button>
+                                        class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium seat"
+                                        id="G4" onclick="toggleSeat(this)">G4</button>
                                 </div>
                                 <div class="contents lg:flex lg:justify-between lg:items-center">
                                     <h4 class="font-inter text-[#03071280] text-lg">H</h4>
                                     <button
-                                        class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium">H1</button>
+                                        class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium seat"
+                                        id="H1" onclick="toggleSeat(this)">H1</button>
                                     <button
-                                        class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium">H2</button>
+                                        class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium seat"
+                                        id="H2" onclick="toggleSeat(this)">H2</button>
                                     <button
-                                        class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium">H3</button>
+                                        class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium seat"
+                                        id="H3" onclick="toggleSeat(this)">H3</button>
                                     <button
-                                        class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium">H4</button>
+                                        class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium seat"
+                                        id="H4" onclick="toggleSeat(this)">H4</button>
                                 </div>
                                 <div class="contents lg:flex lg:justify-between lg:items-center">
                                     <h4 class="font-inter text-[#03071280] text-lg">I</h4>
                                     <button
-                                        class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium">I1</button>
+                                        class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium seat"
+                                        id="I1" onclick="toggleSeat(this)">I1</button>
                                     <button
-                                        class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium">I2</button>
+                                        class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium seat"
+                                        id="I2" onclick="toggleSeat(this)">I2</button>
                                     <button
-                                        class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium">I3</button>
+                                        class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium seat"
+                                        id="I3" onclick="toggleSeat(this)">I3</button>
                                     <button
-                                        class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium">I4</button>
+                                        class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium seat"
+                                        id="I4" onclick="toggleSeat(this)">I4</button>
                                 </div>
                                 <div class="contents lg:flex lg:justify-between lg:items-center">
                                     <h4 class="font-inter text-[#03071280] text-lg">J</h4>
                                     <button
-                                        class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium">J1</button>
+                                        class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium seat"
+                                        id="J1" onclick="toggleSeat(this)">J1</button>
                                     <button
-                                        class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium">J2</button>
+                                        class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium seat"
+                                        id="J2" onclick="toggleSeat(this)">J2</button>
                                     <button
-                                        class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium">J3</button>
+                                        class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium seat"
+                                        id="J3" onclick="toggleSeat(this)">J3</button>
                                     <button
-                                        class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium">J4</button>
+                                        class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium seat"
+                                        id="J4" onclick="toggleSeat(this)">J4</button>
                                 </div>
                             </div>
                             <!-- Button end -->
                         </div>
                         <!-- Border -->
-                        <div class="h-[1078px] border border-dashed border-[#0307124D] hidden lg:block">
-
-                        </div>
+                        <div class="h-[1078px] border border-dashed border-[#0307124D] hidden lg:block"></div>
                         <div>
                             <h3
                                 class="font-raleway font-semibold text-2xl text-[#030712] pb-6 border-dashed border-b-2">
@@ -414,7 +456,8 @@
                                 <div>
                                     <div class="flex justify-between items-center pb-4">
                                         <p class="font-inter text-base text-[#030712]">Seat <span
-                                                class="bg-[#1DD100] rounded px-4 text-white h-[13px] w-[23px]">2</span>
+                                                class="bg-[#1DD100] rounded px-4 text-white h-[13px] w-[23px] "
+                                                id="selectedSeats">0</span>
                                         </p>
                                         <p class="font-inter text-base text-[#030712]">Class</p>
                                         <p class="font-inter text-base text-[#030712]">Price</p>
@@ -475,13 +518,12 @@
 
                         </div>
                     </div>
-
                 </div>
 
             </div>
         </section>
-        <section>
-            <div class="bg-[#F2F1F1] flex justify-center py-[188px] hidden">
+        <section class="flex justify-center hidden">
+            <div class="bg-[#F2F1F1] py-[188px] ">
                 <div
                     class="bg-[#FFFFFF] rounded-xl text-center flex flex-col justify-center items-center max-w-3xl h-[481px] py-[57px] px-[72px]">
                     <img src="images/success.png" alt="">
@@ -535,14 +577,16 @@
         </section>
     </footer>
 
-
+    <script src="js/utility.js"></script>
+    <script src="js/ticket.js"></script>
     <script>
-        let text = document.getElementById('text');
 
         function scrollToText() {
+            const text = document.getElementById('buy');
             text.scrollIntoView();
             // window.scrollTo(0, 1350);
         }
+
     </script>
 </body>
 
