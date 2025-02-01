@@ -18,9 +18,9 @@
     <header class="mx-3 lg:mx-0">
         <nav>
             <div class="container-one">
-                <div class="flex justify-between lg:mt-14">
+                <div class="flex justify-between items-center mt-3 lg:mt-14">
                     <div class="">
-                        <div class="dropdown">
+                        <div class="dropdown hidden">
                             <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
                                     stroke="currentColor">
@@ -29,9 +29,10 @@
                                 </svg>
                             </div>
                         </div>
-                        <a class="btn btn-ghost text-4xl font-extrabold font-raleway text-[#030712]">P-Ticket</a>
+                        <a
+                            class="btn btn-ghost text-2xl lg:text-4xl font-extrabold font-raleway text-[#030712]">P-Ticket</a>
                     </div>
-                    <div class="navbar-center hidden lg:flex ">
+                    <div class="navbar-center hidden lg:flex off-screen-menu">
                         <ul class="menu menu-horizontal px-1 flex justify-center gap-14 items-center ">
                             <li><a
                                     class="font-raleway text-[18px] font-medium text-[#030712B3] hover:text-[#1DD100] hover:border hover:border-[#1DD100DD] hover:bg-[#1DD1001A]">Home</a>
@@ -62,7 +63,7 @@
                     class="bg-[url(images/banner.png)] bg-no-repeat text-center bg-cover bg-center  relative rounded-[32px] py-[70px]">
                     <div>
                         <h1
-                            class="font-raleway lg:text-[64px] text-[32px] font-extrabold lg:leading-[86px] max-w-[740px] m-auto text-white">
+                            class="font-raleway lg:text-[64px] text-[25px] font-extrabold lg:leading-[86px] max-w-[740px] m-auto text-white">
                             End-to-End
                             Travel
                             with
@@ -70,7 +71,7 @@
                                 Paribahan</span>
                         </h1>
                         <p
-                            class="font-inter font-normal text-[18px] leading-7 text-white pb-6 lg:pb-9 max-w-2xl m-auto">
+                            class="font-inter font-normal text-[16px] lg:text-[18px] leading-7 text-white pb-6 lg:pb-9 max-w-2xl m-auto">
                             Yes, you
                             can
                             run unit
@@ -117,15 +118,16 @@
             </div>
         </section>
     </header>
-    <main class="mx-3 lg:mx-0">
+    <main class="">
+        <!-- main screen -->
         <section class="mt-[120px]">
             <div class="container-one">
                 <h1 class="font-raleway  font-bold text-[40px] text-[#030712] text-center pb-12">Best offers for you
                 </h1>
                 <div class="flex gap-10 w-full flex-col lg:flex-row items-center">
-                    <div class="bg-[#FFBF0F]  flex items-center rounded-3xl relative z-0 w-[350px] lg:w-full">
+                    <div class="bg-[#FFBF0F]  flex items-center rounded-3xl relative z-0 w-[290px] lg:w-full">
                         <div class="text-center flex-1 py-12 min-w-[60%]">
-                            <h1 class="text-[40px] font-bold text-[#030712]">15% OFF</h1>
+                            <h1 class="text-[20px] lg:text-[40px] font-bold text-[#030712]">15% OFF</h1>
                             <p class="text-[#030712CC] text-xl mt-2">
                                 on your next purchase<br>
                                 <span class="text-lg text-[#03071280]">use by January 2024</span>
@@ -141,14 +143,15 @@
                             </div>
                         </div>
                         <div class="text-center flex-1">
-                            <span class="block font-raleway  text-[32px] font-bold text-[#030712]">NEW15</span>
+                            <span
+                                class="block font-raleway text-[25px] lg:text-[32px] font-bold text-[#030712]">NEW15</span>
                             <small class="font-raleway text-xl text-[#03071266]">Coupon Code</small>
                         </div>
 
                     </div>
-                    <div class="bg-[#F78C9C]  flex items-center rounded-3xl relative z-0 w-[350px] lg:w-full">
+                    <div class="bg-[#F78C9C]  flex items-center rounded-3xl relative z-0 w-[290px] lg:w-full">
                         <div class="text-center flex-1 py-12 min-w-[60%]">
-                            <h1 class="text-[40px] font-bold text-[#030712]">20% OFF</h1>
+                            <h1 class="text-[20px] lg:text-[40px] font-bold text-[#030712]">20% OFF</h1>
                             <p class="text-[#030712CC] text-xl mt-2">
                                 on your next purchase<br>
                                 <span class="text-lg text-[#03071280]">use by January 2024</span>
@@ -164,7 +167,8 @@
                             </div>
                         </div>
                         <div class="text-center flex-1">
-                            <span class="block font-raleway  text-[32px] font-bold text-[#030712]">Couple 20</span>
+                            <span class="block font-raleway text-[20px] lg:text-[32px] font-bold text-[#030712]">Couple
+                                20</span>
                             <small class="font-raleway text-xl text-[#03071266]">Coupon Code</small>
                         </div>
 
@@ -179,32 +183,33 @@
             </div>
         </section>
         <!-- Ph poribahon -->
-        <section
-            class="mt-[60px] lg:mt-[120px] border-2 rounded-t-[30px] lg:rounded-t-[60px] border-t-[#1DD100] bg-[#F7F8F8]"
-            id="buy">
+        <section class="mt-[60px] lg:mt-[120px] " id="buy">
 
-            <!-- porihahon section content -->
+            <div class="border-t-2 rounded-t-[30px] lg:rounded-t-[60px] border-t-[#1DD100] bg-[#F7F8F8]">
+                <!-- porihahon section content -->
 
-            <div class="text-center pt-[30px] lg:pt-[120px]">
-                <h2 class="font-raleway font-bold text-[#030712] text-3xl lg:text-4xl pb-3 lg:pb-6">P.H Paribahan</h2>
-                <p class="font-normal text-base lg:text-lg text-[#03071299] max-w-3xl m-auto">Yes, you can run unit
-                    tests and
-                    view
-                    the
-                    results
-                    directly
-                    within the app. The integrated testing
-                    features allow for a streamlined .</p>
+                <div class="text-center pt-[30px] lg:pt-[120px]">
+                    <h2 class="font-raleway font-bold text-[#030712] text-3xl lg:text-4xl pb-3 lg:pb-6">P.H Paribahan
+                    </h2>
+                    <p class="font-normal text-base lg:text-lg text-[#03071299] max-w-3xl m-auto">Yes, you can run unit
+                        tests and
+                        view
+                        the
+                        results
+                        directly
+                        within the app. The integrated testing
+                        features allow for a streamlined .</p>
+                </div>
             </div>
             <!-- Greenline paribahan section -->
             <div class="container-one">
                 <div
-                    class="bg-[#FFFFFF]  flex flex-col lg:flex-row items-center rounded-3xl relative z-0 w-full mt-5 lg:mt-[47px] mb-7 ">
-                    <div class="flex-1 py-12 min-w-[70%]">
-                        <div class="flex items-center justify-between px-4 lg:px-8">
-                            <div class="flex items-center gap-3">
+                    class="bg-[#FFFFFF] flex flex-col lg:flex-row items-center rounded-3xl relative z-0 w-full mt-5 lg:mt-[47px] mb-7 ">
+                    <div class="flex-1 py-6 lg:py-12 min-w-[70%]">
+                        <div class="flex items-center flex-col lg:flex-row justify-between px-4 lg:px-8">
+                            <div class="flex items-center gap-3 flex-col lg:flex-row">
                                 <img src="images/bus-logo.png" alt="">
-                                <div>
+                                <div class="pb-2">
                                     <h1 class="text-xl lg:text-[40px] font-bold text-[#030712]">Greenline
                                         Paribahan
                                     </h1>
@@ -352,7 +357,7 @@
                                         class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium seat"
                                         id="D2" onclick="toggleSeat(this)">D2</button>
                                     <button
-                                        class="bg-[#1DD100] text-[#FFFFFF] py-4 px-11 rounded-xl font-inter font-medium seat"
+                                        class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium seat"
                                         id="D3" onclick="toggleSeat(this)">D3</button>
                                     <button
                                         class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium seat"
@@ -361,7 +366,7 @@
                                 <div class="contents lg:flex lg:justify-between lg:items-center">
                                     <h4 class="font-inter text-[#03071280] text-lg">E</h4>
                                     <button
-                                        class="bg-[#1DD100] text-[#FFFFFF] py-4 px-11 rounded-xl font-inter font-medium seat"
+                                        class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium seat"
                                         id="E1" onclick="toggleSeat(this)">E1</button>
                                     <button
                                         class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium seat"
@@ -394,7 +399,7 @@
                                         class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium seat"
                                         id="G1" onclick="toggleSeat(this)">G1</button>
                                     <button
-                                        class="bg-[#1DD100] text-[#FFFFFF] py-4 px-11 rounded-xl font-inter font-medium seat"
+                                        class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium seat"
                                         id="G2" onclick="toggleSeat(this)">G2</button>
                                     <button
                                         class="bg-[#F7F8F8] text-[#03071280] py-4 px-11 rounded-xl font-inter font-medium seat"
@@ -457,9 +462,9 @@
                             <h3
                                 class="font-raleway font-semibold text-2xl text-[#030712] pb-6 border-dashed border-b-2">
                                 Select Your Seat</h3>
-                            <div class="max-w-md h-[335px] bg-[#F7F8F8] rounded-xl px-8 py-8 mt-6">
-                                <div>
-                                    <div class="flex justify-between items-center pb-4">
+                            <div class="max-w-md h-[386px] bg-[#F7F8F8] rounded-xl px-8 py-8 mt-6">
+                                <div id="seatContainer">
+                                    <div class="flex justify-between items-center border-dashed border-b-2 pb-4 mb-4">
                                         <p class="font-inter text-base text-[#030712]">Seat <span
                                                 class="bg-[#1DD100] rounded px-4 text-white h-[13px] w-[23px] "
                                                 id="selectedSeats">0</span>
@@ -467,52 +472,46 @@
                                         <p class="font-inter text-base text-[#030712]">Class</p>
                                         <p class="font-inter text-base text-[#030712]">Price</p>
                                     </div>
-                                    <div class="flex justify-between items-center border-dashed border-t-2 pt-4">
-                                        <p class="font-inter text-base text-[#03071299]">C2</p>
-                                        <p class="font-inter text-base text-[#03071299]">Economoy</p>
-                                        <p class="font-inter text-base text-[#03071299]">550</p>
-                                    </div>
-                                    <div class="flex justify-between items-center pt-4 pb-4">
-                                        <p class="font-inter text-base text-[#03071299]">C2</p>
-                                        <p class="font-inter text-base text-[#03071299]">Economoy</p>
-                                        <p class="font-inter text-base text-[#03071299]">550</p>
-                                    </div>
                                 </div>
-                                <div class="flex justify-between items-center pt-4 border-t border-[#03071233]">
-                                    <p class="font-inter text-base font-medium text-[#030712]">Total Price</p>
-                                    <p class="font-inter text-base font-medium text-[#030712]">BDT 1100</p>
+                                <div class=" pt-4 border-t border-[#03071233]">
+                                    <p
+                                        class="font-inter text-base font-medium text-[#030712] flex justify-between items-center">
+                                        Total Price: <span id="totalPrice">0 Taka</span></p>
                                 </div>
                                 <div class="flex items-center gap-4 mt-5">
-                                    <input type="text" placeholder="Have any coupon?"
+                                    <input type="text" id="coupon" placeholder="Have any coupon?"
                                         class="max-w-96 h-[56px] border border-white rounded-xl px-5 pl-5 text-sm focus:outline-none focus:ring-white focus:border-white relative w-full" />
-                                    <button
-                                        class="bg-[#1DD100] text-white rounded-lg px-5 py-3 text-base font-semibold font-inter absolute ml-[220px] lg:ml-[281px]">
+                                    <button onclick="applyCoupon()"
+                                        class="bg-[#1DD100] text-white rounded-lg px-5 py-3 text-base font-semibold font-inter absolute ml-[140px] lg:ml-[281px]">
                                         Apply
                                     </button>
                                 </div>
-                                <div class="flex justify-between items-center pt-4">
-                                    <p class="font-inter text-base font-medium text-[#030712]">Grand Total</p>
-                                    <p class="font-inter text-base font-medium text-[#030712]">BDT 1100</p>
+                                <div class="pt-4">
+
+                                    <p id="discount-message"></p>
+                                    <p
+                                        class="font-inter text-base font-medium text-[#030712] flex justify-between items-center">
+                                        Grand Total <span id="discountPrice">BDT 0</span></p>
                                 </div>
                             </div>
                             <div class="pt-[40px] pb-[40px]">
-                                <h3 class="font-inter font-semibold text-base text-[#030712] pb-4">Passenger Name*
-                                </h3>
+                                <label class="font-inter font-semibold text-base text-[#030712]" for="">Passenger
+                                    Name*</label>
                                 <input type="text" name="" id="" placeholder="Enter your name "
-                                    class="max-w-md h-[56px] border border-[#0307121A] rounded-xl px-5 pl-5 text-sm  w-full focus:outline-none focus:ring-[#0307121A] focus:border-[#0307121A]">
+                                    class="max-w-md h-[56px] border border-[#0307121A] rounded-xl px-5 pl-5 text-sm  w-full focus:outline-none focus:ring-[#0307121A] focus:border-[#0307121A] mt-4">
                             </div>
                             <div class="pb-[40px]">
-                                <h3 class="font-inter font-semibold text-base text-[#030712] pb-4">Phone Number*
-                                </h3>
-                                <input type="text" name="" id="" placeholder="Enter your phone number"
-                                    class="max-w-md h-[56px] border border-[#0307121A] rounded-xl px-5 pl-5 text-sm  w-full focus:outline-none focus:ring-[#0307121A] focus:border-[#0307121A]">
+                                <label class="font-inter font-semibold text-base text-[#030712]" for="phoneNumber">Phone
+                                    Number*</label>
+                                <input type="text" name="" id="phoneNumber" placeholder="Enter your phone number"
+                                    class="max-w-md h-[56px] border border-[#0307121A] rounded-xl px-5 pl-5 text-sm  w-full focus:outline-none focus:ring-[#0307121A] focus:border-[#0307121A] mt-4">
                             </div>
                             <div class="pt-[10px]">
-                                <h3 class="font-inter font-semibold text-base text-[#030712] pb-4">Email ID</h3>
+                                <label class="font-inter font-semibold text-base text-[#030712]" for="">Email ID</label>
                                 <input type="text" name="" id="" placeholder="Enter your email id"
-                                    class="max-w-md h-[56px] border border-[#0307121A] rounded-xl px-5 pl-5 text-sm  w-full focus:outline-none focus:ring-[#0307121A] focus:border-[#0307121A]">
+                                    class="max-w-md h-[56px] border border-[#0307121A] rounded-xl px-5 pl-5 text-sm  w-full focus:outline-none focus:ring-[#0307121A] focus:border-[#0307121A] mt-4">
                             </div>
-                            <button
+                            <button id="nextButton" onclick="next()"
                                 class="py-5 lg:px-[191px] font-raleway font-extrabold text-xl bg-[#1DD100] text-white w-full rounded-2xl mt-6 mb-6">Next</button>
                             <div class="flex justify-between items-center pt-4 max-w-md">
                                 <p class="font-inter text-base font-medium text-[#03071299] underline">Terms and
@@ -527,7 +526,8 @@
 
             </div>
         </section>
-        <section class="flex justify-center hidden">
+        <!-- success screen -->
+        <section id="success" class="flex justify-center hidden">
             <div class="bg-[#F2F1F1] py-[188px] ">
                 <div
                     class="bg-[#FFFFFF] rounded-xl text-center flex flex-col justify-center items-center max-w-3xl h-[481px] py-[57px] px-[72px]">
@@ -547,7 +547,7 @@
 
     </main>
 
-    <footer class="bg-[#030712]">
+    <footer class="bg-[#030712] hidden">
         <section class="py-[60px] lg:py-[120px]">
             <div class="container-one">
                 <div class="flex justify-between items-center pb-6 lg:pb-12 flex-col lg:flex-row ">
